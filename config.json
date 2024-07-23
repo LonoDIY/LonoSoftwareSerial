@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "Mind+软串口",
+		"en": "Mind+ SoftwareSerial"
+	},
+	"description": {
+		"zh-cn": "Mind+软串口，支持arduino,arduinonano,ESP32，可自由选择引脚",
+		"en": "Mind+ SoftwareSerial supports Arduino, Arduino Nano, and ESP32, with flexible pin selection."
+	},
+	"author": "Lono",
+	"email": "lonodiy@163.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "lonosoftserial",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["arduino", "arduinonano", "esp32"],
+			"main": "main.ts"
+		}
+	}
+}

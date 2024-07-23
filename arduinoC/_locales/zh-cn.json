@@ -1,0 +1,12 @@
+{
+    "LonoSoftSerial.initSoftSerial|block": "初始化软串口 [SS]; TX=[TX], RX=[RX], 波特率=[BAUD]",
+    "LonoSoftSerial.available|block": "软串口 [SS]是否有数据可读",
+    "LonoSoftSerial.read|block": "从软串口 [SS] 读取一个字符",
+    "LonoSoftSerial.readNumber|block": "从软串口 [SS] 读取一个数字",
+    "LonoSoftSerial.write|block": "软串口 [SS], 写数据 [DATATYPE] [DATA], [NEWLINE]",
+
+    "LonoSoftSerial.DataType.STRING|menu": "字符串",
+    "LonoSoftSerial.DataType.HEX|menu": "16进制",
+    "LonoSoftSerial.ChangeLine.NEWLINE|menu": "换行",
+    "LonoSoftSerial.ChangeLine.NONEWLINE|menu": "不换行"
+}

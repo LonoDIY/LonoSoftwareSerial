@@ -1,0 +1,12 @@
+{
+    "LonoSoftSerial.initSoftSerial|block": "Initialize SoftwareSerial [SS]; TX=[TX], RX=[RX], Baud rate=[BAUD]",
+    "LonoSoftSerial.available|block": "Check if SoftwareSerial [SS] has data available",
+    "LonoSoftSerial.read|block": "Read one character from SoftwareSerial [SS]",
+    "LonoSoftSerial.readNumber|block": "Read one number from SoftwareSerial [SS]",
+    "LonoSoftSerial.write|block": "SoftwareSerial [SS], write data [DATATYPE] [DATA], [NEWLINE]",
+
+    "LonoSoftSerial.DataType.STRING|menu": "String",
+    "LonoSoftSerial.DataType.HEX|menu": "Hexadecimal",
+    "LonoSoftSerial.ChangeLine.NEWLINE|menu": "Wrap",
+    "LonoSoftSerial.ChangeLine.NONEWLINE|menu": "No Wrap"
+}
